@@ -1,0 +1,846 @@
+/* ------------------------ Header ------------------------ */
+
+.top_page
+{
+	height: 90px;
+	z-index: 12;
+	background-color: white;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	padding-left: 150px;
+	padding-top: 10px;
+	font-family: 'robotoregular', Arial, serif;
+}
+
+/* ------------------------ Menu de navigation ------------------------ */
+
+.top_page img
+{
+	margin-top: 8px;
+}
+
+nav
+{
+	width: 70%;
+	position: absolute;
+	left: 60%;
+	top: 35px;
+}
+
+nav a
+{
+	padding: 32px 15px 25px 15px;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	color: #777;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	border-top-color: #5CADD3;
+	color: #555;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('Roboto-Regular-webfont.eot');
+    src: url('Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Regular-webfont.woff2') format('woff2'),
+         url('Roboto-Regular-webfont.woff') format('woff'),
+         url('Roboto-Regular-webfont.ttf') format('truetype'),
+         url('Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*------------------------ Slider ------------------------ */
+
+h2
+{
+	text-transform: uppercase;
+	font-size: 50px;
+	font-family: 'robotoregular', Arial, serif;
+	text-align: center;
+	margin: 20px 0 0 0;
+}
+
+.banniere
+{
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	margin-top: 43px;
+}
+
+h1
+{
+	font-family: 'robotoregular', Arial, serif;
+	text-transform: uppercase;
+}
+
+.text_image
+{
+	position: absolute;
+	z-index: 4;
+	margin-top: 120px;
+	left: 16%;
+	min-width: 250px;
+	max-width: 30%;
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('files/fonts/ffonts/Roboto-Bold-webfont.eot');
+    src: url('files/fonts/ffonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('files/fonts/ffonts/Roboto-Bold-webfont.woff2') format('woff2'),
+         url('files/fonts/ffonts/Roboto-Bold-webfont.woff') format('woff'),
+         url('files/fonts/ffonts/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('files/fonts/ffonts/Roboto-Bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.text_image h2
+{
+	font-size: 36px;
+	font-family: 'robotobold', Arial, serif;
+	line-height: 1em;
+	text-align: left;
+}
+
+.blue
+{
+	color: #5CACD1;
+}
+
+@media all and (min-width: 1024px)
+{
+	.white
+	{
+		color: #fff;
+	}
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('files/fonts/ffonts/Roboto-Light-webfont.eot');
+    src: url('files/fonts/ffonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('files/fonts/ffonts/Roboto-Light-webfont.woff2') format('woff2'),
+         url('files/fonts/ffonts/Roboto-Light-webfont.woff') format('woff'),
+         url('files/fonts/ffonts/Roboto-Light-webfont.ttf') format('truetype'),
+         url('files/fonts/ffonts/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header p
+{
+	font-family: 'robotolight', Arial, serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.blue_button
+{
+	background-color: #5CACD1;
+	color: #fff;
+	padding: 6px 13px 6px 13px;
+	border-radius: 2px;
+	font-family: 'robotolight', Arial, serif;
+	font-size: 13px;
+	text-decoration: none;
+	font-weight: bold;
+	box-shadow: 0 2px 0px #4494bb;
+}
+
+.carousel-wrapper 
+{
+	position: relative;
+	height: 550px;
+	margin-top: 129px;
+}
+
+.carousel-wrapper .carousel-item 
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+}
+
+.item-1, .item-2
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.carousel-wrapper .carousel-item .arrow 
+{
+	position: absolute;
+	display: block;
+	padding: 0;
+	z-index: 10;
+}
+
+.carousel-wrapper a
+{
+	color: #fff;
+	text-decoration: none;
+	background-color: rgba(0,0,0,0.2);
+	width: 30px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.carousel-wrapper a[class*="left"]
+{
+	border-radius: 0 40px 40px 0;
+}
+
+.carousel-wrapper a[class*="right"]
+{
+	border-radius: 40px 0 0 40px;
+}
+
+.carousel-wrapper a:hover
+{
+	background-color: rgba(0,0,0,0.5);
+}
+
+.carousel-wrapper .carousel-item .arrow.arrow-prev 
+{
+	text-align: center;
+}
+
+.carousel-wrapper .carousel-item .arrow.arrow-next 
+{
+	right: 0;
+	text-align: center;
+	border-radius: 40px 0 0 40px;
+}
+
+.carousel-wrapper [id^="target-item"] 
+{
+	display: none;
+}
+
+.carousel-wrapper .item-1 
+{
+	opacity: 1;
+}
+
+.carousel-wrapper *:target ~ .item-1 
+{
+	opacity: 0;
+}
+
+.carousel-wrapper #target-item-1:target ~ .item-1 
+{
+  	z-index: 2;
+  	opacity: 1;
+}
+
+.carousel-wrapper #target-item-2:target ~ .item-2, .carousel-wrapper
+{
+	z-index: 3;
+	opacity: 1;
+}
+
+/* ------------------------ Propriétés de l'en-tête valables pour toutes les sections ------------------------*/
+
+.head_sections p
+{
+	width: 50%;
+}
+
+/* ------------------------ Section 1 : Nos services ------------------------ */
+
+.three_services
+{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.text_services
+{
+	width: 50%;
+}
+
+.image_services
+{
+	text-align: right;
+}
+
+.fa-line-chart, .fa-cubes, .fa-pie-chart, .fa-circle
+{
+	color: #5cadd3;
+}
+
+.head_sections
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	height: 250px;
+}
+
+.separation
+{
+	width: 150px;
+	height: 60px;
+}
+
+hr
+{
+	position: relative;
+	z-index: 1;
+	width: 150px;
+	opacity: 0.4;
+}
+
+.head_sections .fa-circle
+{
+	position: relative;
+	font-size: 20px;
+	z-index: 2;
+	left: 0;
+	top: 19px;
+}
+
+#services
+{
+	padding-top: 100px;
+}
+
+#services .fa-circle
+{	
+	border-right: 7px solid white;
+	border-left: 7px solid white;
+}
+
+.three_services
+{
+	padding-bottom: 50px;
+}
+
+.service
+{
+	display: flex;
+}
+
+.icon
+{
+	z-index: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 25px;
+	border: 0.5px solid #d7d7d7;
+	border-radius: 100px;
+	margin-right: 30px;
+	padding: 20px;
+	width: 25px;
+	height: 25px;
+}
+
+.chart
+{
+	width: 25px;
+}
+
+.circle
+{
+	background-color: white;
+	z-index: 2;
+	font-size: 14px;
+	margin-left: 5px;
+	border: 2px solid white;
+}
+
+h3
+{
+	font-family: 'robotobold', Arial, serif;
+	font-size: 20px;
+	line-height: 0.5em;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('files/fonts/ffonts/Roboto-Regular-webfont.eot');
+    src: url('files/fonts/ffonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('files/fonts/ffonts/Roboto-Regular-webfont.woff2') format('woff2'),
+         url('files/fonts/ffonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('files/fonts/ffonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('files/fonts/ffonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p
+{
+	color: #686c71;
+	font-family: 'robotoregular', Arial, serif;
+	line-height: 2em;
+}
+
+/* ------------------------ Section 2 : Nos projets ------------------------ */
+
+#portfolio
+{
+	background-color: #f5f5f5;
+	margin-bottom: 50px;
+}
+
+#portfolio .fa-circle
+{
+	border-left: 7px solid #f5f5f5;
+	border-right: 7px solid #f5f5f5;
+}
+
+.selection_images
+{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+input[type=radio]
+{
+	display: none;
+}
+
+label
+{
+	width: 55px;
+	display: inline-block;
+	align-self: center;
+}
+
+label[for="tab_1"]
+{
+	position: relative;
+	right: 137px;
+}
+
+label[for="tab_2"]
+{
+	position: relative;
+	bottom: 54px;
+	right: 46px;
+}
+
+label[for="tab_3"]
+{
+	position: relative;
+	bottom: 108px;
+	left: 45px;
+}
+
+label[for="tab_4"]
+{
+	position: relative;
+	bottom: 162px;
+	left: 136px;
+}
+
+.left_tab_radius
+{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.right_tab_radius
+{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+/* Affichage par défaut de l'onglet */
+.selection_images input[type=radio] + label
+{
+	color: #64686d;
+	background-color: #e5e5e5;
+	text-decoration: none;
+	padding: 10px 18px;
+	font-family: 'robotolight', Arial, serif;
+	font-weight: bold;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+.selection_images input[type=radio]:not(:checked) + label + i
+{
+	color: #f5f5f5;
+}
+
+/* Affichage de l'onglet quand il est sélectionné */
+
+.selection_images input[type=radio]:checked + label
+{
+	font-family: 'robotolight', Arial, serif;
+	background-color: #5cadd3;
+	color: #fff;
+	border-bottom: 3px solid #468cad;
+	padding: 10px 18px 7px 18px;
+}
+
+.selection_images #tab_1[type=radio]:checked + label + i,
+.selection_images #tab_2[type=radio]:checked + label + i,
+.selection_images #tab_3[type=radio]:checked + label + i,
+.selection_images #tab_4[type=radio]:checked + label + i
+{
+	color: #468cad;
+}
+
+.selection_images #tab_1[type=radio]:checked + label + i
+{	
+	position: relative;
+	bottom: 6px;
+	right: 137px;
+}
+
+.selection_images #tab_2[type=radio]:checked + label + i
+{	
+	position: relative;
+	bottom: 60px;
+	right: 45px;
+}
+
+.selection_images #tab_3[type=radio]:checked + label + i
+{	
+	position: relative;
+	bottom: 114px;
+	left: 45px;
+}
+
+.selection_images #tab_4[type=radio]:checked + label + i
+{	
+	position: relative;
+	bottom: 168px;
+	left: 136px;
+}
+
+/* Légende des images */
+
+figure
+{
+	width: 360px;
+	height: 240px;
+	margin: 10px;
+}
+
+figcaption
+{
+	text-align: left;
+	position: relative;
+	bottom: 94px;
+	padding-left: 10px;
+	line-height: 2px;
+	padding-top: 10px;
+	background-color: rgba(0, 0, 0, 0.4);
+	height: 80px;
+}
+
+figcaption h3, figcaption p
+{
+	color: white;
+}
+
+figcaption h3
+{
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+figcaption p
+{
+	margin-top: 5px;
+}
+
+figcaption i
+{
+	color: white;
+	border: 2px solid white;
+	background-color: #4692b1;
+	padding: 15px;
+	border-radius: 50px;
+	position: relative;
+	bottom: 107px;
+	left: 286px;
+}
+
+figcaption
+{
+	display: none;
+}
+
+figure:hover figcaption
+{
+	display: block;
+}
+
+.row_portfolio
+{
+	display: flex;
+	justify-content: center;
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+.bottom_row
+{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.single_row
+{
+	padding-bottom: 80px;
+}
+
+.images_all_works, .images_creative, .images_corporate, .images_portfolio
+{
+	display: none;
+}
+
+.selection_images #tab_1[type=radio]:checked ~ .images_all_works, .selection_images #tab_2[type=radio]:checked ~ .images_creative, .selection_images #tab_3[type=radio]:checked ~.images_corporate, .selection_images #tab_4[type=radio]:checked ~ .images_portfolio
+{
+	display: block;
+}
+
+/* ------------------------ Section 3 : Contact ------------------------ */
+
+#contact
+{
+	text-align: center;
+	height: 550px;
+}
+
+form p
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#contact input
+{
+	width: 220px;
+	height: 30px;
+	margin-bottom: 15px;
+}
+
+textarea
+{
+	width: 220px;
+	height: 150px;
+}
+
+#contact input, #contact textarea
+{
+	font-family: 'robotolight', Arial, serif;
+	font-size: 15px;
+	font-weight: bold;
+	border: 1px solid #ccc;
+	padding-left: 10px;
+	border-radius: 5px;
+}
+
+iframe
+{
+	width: 80%;
+	height: 600px;
+	border: 0;
+}
+
+.formular
+{
+	position: relative;
+	left: 60%;
+	bottom: 580px;
+	height: 545px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: left;
+	font-size: 14px;
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 290px;
+}
+
+.dotted_line
+{
+	border-bottom: 1px dotted #777;
+}
+
+.form_text
+{
+	align-self: flex-start;
+	margin-left: 33px;
+}
+
+strong
+{
+	font-weight: bold;
+}
+
+.send_message
+{
+	background-color: #5cadd3;
+	color: #fff;
+	border-bottom: 3px solid #468cad;
+	padding: 10px 18px;
+	border-radius: 5px;
+	align-self: flex-start;
+	margin-left: 33px;
+	text-decoration: none;
+	font-family: 'robotolight', Arial, serif;
+	font-weight: bold;
+}
+
+/* Responsive */
+
+@media all and (max-width: 1024px)
+{
+	.top_page
+	{
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+		height: 100px;
+		align-items: center;
+	}
+
+	.top_page img
+	{
+		width: 261px;
+		height: 57px;
+	}
+
+	nav
+	{
+		display: flex;
+		flex-direction: column;
+		top: 100px;
+		width: 100%;
+		left: 0;
+		background-color: #ebebeb;
+	}
+
+	nav a
+	{
+		padding: 10px;
+		border: none;
+		text-align: center;
+		border-top: 3px solid #ebebebeb;
+		border-bottom: 3px solid #ebebebeb;
+	}
+
+	nav a:hover
+	{
+		border-bottom-color: #5CADD3
+	}
+
+	.banniere
+	{
+		margin-top: 305px;
+	}
+
+	.arrow
+	{
+		margin-top: 154px;
+	}
+
+	.text_image
+	{
+		position: static;
+		align-self: center;
+		color: black;
+		max-width: 100%;
+		margin-top: 170px;
+	}
+
+	.all_slider
+	{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.carousel-wrapper 
+	{
+		height: 300px;
+		margin-top: 153px;
+	}
+
+	.arrow
+	{
+		align-self: center;
+	}
+
+	.head_sections
+	{
+		margin-bottom: 80px;
+	}
+
+	.three_services
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.row_portfolio
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.row_portfolio figure
+	{
+		width: 360px;
+		height: 240px;
+		margin-bottom: 20px;
+	}
+
+	.bottom_row
+	{
+		margin: 0;
+	}
+
+	#contact
+	{
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+		height: 680px;
+	}
+
+	iframe
+	{
+		align-self: center;
+	}
+
+	.formular
+	{
+		bottom: 0;
+		left: 0;
+		align-self: center;
+		margin-bottom: 30px;
+	}
+
+	#contact
+	{
+		height: 1100px;
+	}
+}
