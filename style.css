@@ -297,6 +297,15 @@ header p
 	width: 50%;
 }
 
+.head_sections .fa-circle
+{
+	position: relative;
+	font-size: 20px;
+	z-index: 2;
+	left: 0;
+	top: 19px;
+}
+
 /* ------------------------ Section 1 : Nos services ------------------------ */
 
 .three_services
@@ -324,15 +333,6 @@ header p
 {
 	width: 150px;
 	height: 60px;
-}
-
-.head_sections .fa-circle
-{
-	position: relative;
-	font-size: 20px;
-	z-index: 2;
-	left: 0;
-	top: 19px;
 }
 
 #services
