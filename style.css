@@ -1,3 +1,80 @@
+/* Définition des polices personnalisées */
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('Roboto-Regular-webfont.eot');
+    src: url('Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Regular-webfont.woff2') format('woff2'),
+         url('Roboto-Regular-webfont.woff') format('woff'),
+         url('Roboto-Regular-webfont.ttf') format('truetype'),
+         url('Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('files/fonts/ffonts/Roboto-Bold-webfont.eot');
+    src: url('files/fonts/ffonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('files/fonts/ffonts/Roboto-Bold-webfont.woff2') format('woff2'),
+         url('files/fonts/ffonts/Roboto-Bold-webfont.woff') format('woff'),
+         url('files/fonts/ffonts/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('files/fonts/ffonts/Roboto-Bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('files/fonts/ffonts/Roboto-Light-webfont.eot');
+    src: url('files/fonts/ffonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('files/fonts/ffonts/Roboto-Light-webfont.woff2') format('woff2'),
+         url('files/fonts/ffonts/Roboto-Light-webfont.woff') format('woff'),
+         url('files/fonts/ffonts/Roboto-Light-webfont.ttf') format('truetype'),
+         url('files/fonts/ffonts/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Éléments principaux de la page */
+
+h1
+{
+	font-family: 'robotoregular', Arial, serif;
+	text-transform: uppercase;
+}
+
+h2
+{
+	text-transform: uppercase;
+	font-size: 50px;
+	font-family: 'robotoregular', Arial, serif;
+	text-align: center;
+	margin: 20px 0 0 0;
+}
+
+h3
+{
+	font-family: 'robotobold', Arial, serif;
+	font-size: 20px;
+	line-height: 0.5em;
+}
+
+p
+{
+	color: #686c71;
+	font-family: 'robotoregular', Arial, serif;
+	line-height: 2em;
+}
+
+hr
+{
+	position: relative;
+	z-index: 1;
+	width: 150px;
+	opacity: 0.4;
+}
+
 /* ------------------------ Header ------------------------ */
 
 .top_page
@@ -44,41 +121,15 @@ nav a:hover
 	color: #555;
 }
 
-@font-face {
-    font-family: 'robotoregular';
-    src: url('Roboto-Regular-webfont.eot');
-    src: url('Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Roboto-Regular-webfont.woff2') format('woff2'),
-         url('Roboto-Regular-webfont.woff') format('woff'),
-         url('Roboto-Regular-webfont.ttf') format('truetype'),
-         url('Roboto-Regular-webfont.svg#robotoregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 
 /*------------------------ Slider ------------------------ */
 
-h2
-{
-	text-transform: uppercase;
-	font-size: 50px;
-	font-family: 'robotoregular', Arial, serif;
-	text-align: center;
-	margin: 20px 0 0 0;
-}
-
-.banniere
+.banner
 {
 	position: relative;
 	z-index: 1;
 	width: 100%;
-	margin-top: 43px;
-}
-
-h1
-{
-	font-family: 'robotoregular', Arial, serif;
-	text-transform: uppercase;
+	margin-top: 0px;
 }
 
 .text_image
@@ -89,18 +140,6 @@ h1
 	left: 16%;
 	min-width: 250px;
 	max-width: 30%;
-}
-
-@font-face {
-    font-family: 'robotobold';
-    src: url('files/fonts/ffonts/Roboto-Bold-webfont.eot');
-    src: url('files/fonts/ffonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('files/fonts/ffonts/Roboto-Bold-webfont.woff2') format('woff2'),
-         url('files/fonts/ffonts/Roboto-Bold-webfont.woff') format('woff'),
-         url('files/fonts/ffonts/Roboto-Bold-webfont.ttf') format('truetype'),
-         url('files/fonts/ffonts/Roboto-Bold-webfont.svg#robotobold') format('svg');
-    font-weight: normal;
-    font-style: normal;
 }
 
 .text_image h2
@@ -122,18 +161,6 @@ h1
 	{
 		color: #fff;
 	}
-}
-
-@font-face {
-    font-family: 'robotolight';
-    src: url('files/fonts/ffonts/Roboto-Light-webfont.eot');
-    src: url('files/fonts/ffonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('files/fonts/ffonts/Roboto-Light-webfont.woff2') format('woff2'),
-         url('files/fonts/ffonts/Roboto-Light-webfont.woff') format('woff'),
-         url('files/fonts/ffonts/Roboto-Light-webfont.ttf') format('truetype'),
-         url('files/fonts/ffonts/Roboto-Light-webfont.svg#robotolight') format('svg');
-    font-weight: normal;
-    font-style: normal;
 }
 
 header p
@@ -161,7 +188,7 @@ header p
 {
 	position: relative;
 	height: 550px;
-	margin-top: 129px;
+	margin-top: 149px;
 }
 
 .carousel-wrapper .carousel-item 
@@ -185,9 +212,7 @@ header p
 .carousel-wrapper .carousel-item .arrow 
 {
 	position: absolute;
-	display: block;
-	padding: 0;
-	z-index: 10;
+	z-index: 1;
 }
 
 .carousel-wrapper a
@@ -301,14 +326,6 @@ header p
 	height: 60px;
 }
 
-hr
-{
-	position: relative;
-	z-index: 1;
-	width: 150px;
-	opacity: 0.4;
-}
-
 .head_sections .fa-circle
 {
 	position: relative;
@@ -366,32 +383,6 @@ hr
 	font-size: 14px;
 	margin-left: 5px;
 	border: 2px solid white;
-}
-
-h3
-{
-	font-family: 'robotobold', Arial, serif;
-	font-size: 20px;
-	line-height: 0.5em;
-}
-
-@font-face {
-    font-family: 'robotoregular';
-    src: url('files/fonts/ffonts/Roboto-Regular-webfont.eot');
-    src: url('files/fonts/ffonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('files/fonts/ffonts/Roboto-Regular-webfont.woff2') format('woff2'),
-         url('files/fonts/ffonts/Roboto-Regular-webfont.woff') format('woff'),
-         url('files/fonts/ffonts/Roboto-Regular-webfont.ttf') format('truetype'),
-         url('files/fonts/ffonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-p
-{
-	color: #686c71;
-	font-family: 'robotoregular', Arial, serif;
-	line-height: 2em;
 }
 
 /* ------------------------ Section 2 : Nos projets ------------------------ */
@@ -485,7 +476,6 @@ label[for="tab_4"]
 }
 
 /* Affichage de l'onglet quand il est sélectionné */
-
 .selection_images input[type=radio]:checked + label
 {
 	font-family: 'robotolight', Arial, serif;
@@ -532,7 +522,6 @@ label[for="tab_4"]
 }
 
 /* Légende des images */
-
 figure
 {
 	width: 360px;
@@ -614,7 +603,10 @@ figure:hover figcaption
 	display: none;
 }
 
-.selection_images #tab_1[type=radio]:checked ~ .images_all_works, .selection_images #tab_2[type=radio]:checked ~ .images_creative, .selection_images #tab_3[type=radio]:checked ~.images_corporate, .selection_images #tab_4[type=radio]:checked ~ .images_portfolio
+.selection_images #tab_1[type=radio]:checked ~ .images_all_works,
+.selection_images #tab_2[type=radio]:checked ~ .images_creative,
+.selection_images #tab_3[type=radio]:checked ~.images_corporate,
+.selection_images #tab_4[type=radio]:checked ~ .images_portfolio
 {
 	display: block;
 }
@@ -751,7 +743,7 @@ strong
 		border-bottom-color: #5CADD3
 	}
 
-	.banniere
+	.banner
 	{
 		margin-top: 305px;
 	}
