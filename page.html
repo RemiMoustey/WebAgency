@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name=viewport content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="style.css" />
+	    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous" />
+	    <link rel="stylesheet" href="files/font_awesome_4.7.0/css/font-awesome.min.css" />
+		<title>Web Agency</title>
+	</head>
+
+	<body>
+		<!-- Le logo et le menu --> 
+		<header id="accueil">
+			<div class="top_page">
+				<img src="files/images/logo.png" alt="Logo de la WebAgency" />
+
+				<!-- Le menu de navigation dans la page -->
+				<nav>
+					<a href="#accueil">Accueil</a>
+					<a href="#services">Services</a>
+					<a href="#portfolio">Portfolio</a>
+					<a href="#contact">Contact</a>
+				</nav>
+			</div>
+			<div class="all_slider">
+				<div class="text_image">
+					<h1><strong class="blue">Webagency</strong> <span class="white">: l'agence de tous vos projets !</span></h1>
+					<p class="white">Vous avez un projet web, La WebAgency vous aide à la réaliser !</p>
+					<a href="#" class="blue_button">Plus d'infos</a>
+				</div>
+				<div class="carousel-wrapper">
+					<span id="target-item-1"></span>
+					<span id="target-item-2"></span>
+					<div class="carousel-item item-1">
+						<img src="files/images/slider/bg1.jpg" alt="Fille qui montre ses mains pleines de peinture" class="banner" />
+						<div class="arrow arrow-prev"><a class="fas fa-chevron-left" href="#target-item-2"></a></div>
+						<div class="arrow arrow-next"><a class="fas fa-chevron-right" href="#target-item-2"></a></div>
+					</div>
+					<div class="carousel-item item-2">
+						<img src="files/images/slider/bg2.jpg" alt="Garçon qui crie dans un porte-voix" class="banner" />
+						<div class="arrow arrow-prev"><a class="fas fa-chevron-left" href="#target-item-1"></a></div>
+						<div class="arrow arrow-next"><a class="fas fa-chevron-right" href="#target-item-1"></a></div>
+				  	</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- Section 1 : Nos services -->
+		<section id="services">
+			<div class="head_sections">
+				<h2>Nos services</h2>
+				<div class="separation">
+					<i class="fa fa-circle"></i>
+					<hr />
+				</div>
+				<p>Vous trouverez chez nous tous les services nécessaires pour la création de votre site web. Nous nous soucions de l'expérience de l'utilisateur, mais aussi de votre référencement.</p>
+			</div>
+			<div class="three_services">
+				<div class="image_services">
+					<img src="files/images/main-feature.png" alt="Image de présentation" />
+				</div>
+				<div class="text_services">
+					<div class="service">
+						<div class="icon">
+							<span class="chart"><i class="fa fa-line-chart"></i></span><span class="circle"><i class="fa fa-circle"></i></span>
+						</div>
+						<article class="text_services">
+							<h3>UX design</h3>
+							<p>Nos experts conçoivent avec la plus grande rigueur une interface très facile à prendre en main pour vos utilisateurs et ergonomique. Cette interface est réalisée en fonction de vos désirs et des besoins de vos destinataires.</p>
+						</article>
+					</div>
+					<div class="service">
+						<div class="icon">
+							<span class="chart"><i class="fas fa-cubes"></i></span><span class="circle"><i class="fa fa-circle"></i></span>
+						</div>
+						<article class="text_services">
+							<h3>UI design</h3>
+							<p>Les attentes de vos clients seront satisfaites, car nos spécialistes les analysent en détail grâce à leurs compétences techniques, afin que l’interface de votre site web soient conformes à ces attentes.</p>
+						</article>
+					</div>
+					<div class="service">
+						<div class="icon">
+							<span class="chart"><i class="fa fa-pie-chart"></i></span><span class="circle"><i class="fa fa-circle"></i></span>
+						</div>
+						<article class="text_services">
+							<h3>SEO</h3>
+							<p>Nous ferons notre maximum pour améliorer votre référencement naturel. En effet, votre site web sera largement visible dans les résultats des moteurs de recherche et votre plate-forme sera bénéfique pour vous et votre entreprise.</p>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section 2 : Nos projets -->
+		<section id="portfolio">
+			<div class="head_sections">
+				<h2>Nos projets</h2>
+				<div class="separation">
+					<i class="fa fa-circle"></i>
+					<hr />
+				</div>
+				<p>Ci-dessous, vous pouvez découvrir les différentes réalisations que nous avons faites pour et avec nos clients.</p>
+			</div>
+
+			<div class="selection_images">
+				<input type="radio" id="tab_1" name="tab" value="tab_1" checked />
+				<label for="tab_1" class="left_tab_radius">All Works</label><i class="fas fa-caret-down"></i>
+				<input type="radio" id="tab_2" name="tab" value="tab_2" />
+				<label for="tab_2">Creative</label><i class="fas fa-caret-down"></i>
+				<input type="radio" id="tab_3" name="tab" value="tab_3" />
+				<label for="tab_3">Corporate</label><i class="fas fa-caret-down"></i>
+				<input type="radio" id="tab_4" name="tab" value="tab_4" />
+				<label for="tab_4" class="right_tab_radius">Portfolio</label><i class="fas fa-caret-down"></i>
+				<div class="images_all_works">
+					<div class="row_portfolio">
+						<figure>
+							<img src="files/images/portfolio/resized/01.jpg" alt="Projet 1" />
+							<figcaption><div class="legend"><h3>Portfolio Item 1</h3><p>Lorem Ipsum Dolor Sit</p></div><div class="link_eye"><a href="#portfolio"><i class="fa fa-eye" aria-hidden="true"></i></a></div></figcaption>
+						</figure>
+						<figure>
+							<img src="files/images/portfolio/resized/02.jpg" alt="Projet 2" />
+							<figcaption><div class="legend"><h3>Portfolio Item 2</h3><p>Lorem Ipsum Dolor Sit</p></div><a href="#portfolio"><i class="fa fa-eye" aria-hidden="true"></i></a></figcaption>
+						</figure>
+						<figure>
+							<img src="files/images/portfolio/resized/03.jpg" alt="Projet 3" />
+							<figcaption><div class="legend"><h3>Portfolio Item 3</h3><p>Lorem Ipsum Dolor Sit</p></div><a href="#portfolio"><i class="fa fa-eye" aria-hidden="true"></i></a></figcaption>
+						</figure>
+						<figure>
+							<img src="files/images/portfolio/resized/04.jpg" alt="Projet 4" />
+							<figcaption><div class="legend"><h3>Portfolio Item 4</h3><p>Lorem Ipsum Dolor Sit</p></div><a href="#portfolio"><i class="fa fa-eye" aria-hidden="true"></i></a></figcaption>
+						</figure>
+					</div>
+					<div class="row_portfolio bottom_row">
+						<figure>
+							<img src="files/images/portfolio/resized/05.jpg" alt="Projet 5" />
+							<figcaption><div class="legend"><h3>Portfolio Item 5</h3><p>Lorem Ipsum Dolor Sit</p></div><div class="link_eye"><a href="#portfolio"><i class="fa fa-eye" aria-hidden="true"></i></a></div></figcaption>
+						</figure>
+						<figure>
+							<img src="files/images/portfolio/resized/06.jpg" alt="Projet 6" />
+							<figcaption><div class="legend"><h3>Portfolio Item 6</h3><p>Lorem Ipsum Dolor Sit</p></div><a href="#portfolio"><i class="fa fa-eye" aria-hidden="true"></i></a></figcaption>
+						</figure>
+						<figure>
+							<img src="files/images/portfolio/resized/07.jpg" alt="Projet 7" />
+							<figcaption><div class="legend"><h3>Portfolio Item 7</h3><p>Lorem Ipsum Dolor Sit</p></div><a href="#portfolio"><i class="fa fa-eye" aria-hidden="true"></i></a></figcaption>
+						</figure>
+						<figure>
+							<img src="files/images/portfolio/resized/08.jpg" alt="Projet 8" />
+							<figcaption><div class="legend"><h3>Portfolio Item 8</h3><p>Lorem Ipsum Dolor Sit</p></div><a href="#portfolio"><i class="fa fa-eye" aria-hidden="true"></i></a></figcaption>
+						</figure>
+					</div>
+				</div>		
+				<div class="images_creative">
+					<div class="row_portfolio single_row">
+						<figure>
+							<img src="files/images/portfolio/resized/01.jpg" alt="Projet 1" />
+							<figcaption><div class="legend"><h3>Portfolio Item 1</h3><p>Lorem Ipsum Dolor Sit</p></div><div class="link_eye"><a href="#portfolio"><i class="fa fa-eye" aria-hidden="true"></i></a></div></figcaption>
+						</figure>
+						<figure>
+							<img src="files/images/portfolio/resized/02.jpg" alt="Projet 2" />
+							<figcaption><div class="legend"><h3>Portfolio Item 2</h3><p>Lorem Ipsum Dolor Sit</p></div><a href="#portfolio"><i class="fa fa-eye" aria-hidden="true"></i></a></figcaption>
+						</figure>
+						<figure>
+							<img src="files/images/portfolio/resized/03.jpg" alt="Projet 3" />
+							<figcaption><div class="legend"><h3>Portfolio Item 3</h3><p>Lorem Ipsum Dolor Sit</p></div><a href="#portfolio"><i class="fa fa-eye" aria-hidden="true"></i></a></figcaption>
+						</figure>
+					</div>
+				</div>
+				<div class="images_corporate">
+					<div class="row_portfolio single_row">
+						<figure>
+							<img src="files/images/portfolio/resized/04.jpg" alt="Projet 4" />
+							<figcaption><div class="legend"><h3>Portfolio Item 1</h3><p>Lorem Ipsum Dolor Sit</p></div><div class="link_eye"><a href="#portfolio"><i class="fa fa-eye" aria-hidden="true"></i></a></div></figcaption>
+						</figure>
+						<figure>
+							<img src="files/images/portfolio/resized/05.jpg" alt="Projet 5" />
+							<figcaption><div class="legend"><h3>Portfolio Item 2</h3><p>Lorem Ipsum Dolor Sit</p></div><a href="#portfolio"><i class="fa fa-eye" aria-hidden="true"></i></a></figcaption>
+						</figure>
+						<figure>
+							<img src="files/images/portfolio/resized/06.jpg" alt="Projet 6" />
+							<figcaption><div class="legend"><h3>Portfolio Item 3</h3><p>Lorem Ipsum Dolor Sit</p></div><a href="#portfolio"><i class="fa fa-eye" aria-hidden="true"></i></a></figcaption>
+						</figure>
+					</div>
+				</div>
+				<div class="images_portfolio">
+					<div class="row_portfolio single_row">
+						<figure>
+							<img src="files/images/portfolio/resized/07.jpg" alt="Projet 7" />
+							<figcaption><div class="legend"><h3>Portfolio Item 7</h3><p>Lorem Ipsum Dolor Sit</p></div><div class="link_eye"><a href="#portfolio"><i class="fa fa-eye" aria-hidden="true"></i></a></div></figcaption>
+						</figure>
+						<figure>
+							<img src="files/images/portfolio/resized/08.jpg" alt="Projet 8" />
+							<figcaption><div class="legend"><h3>Portfolio Item 8</h3><p>Lorem Ipsum Dolor Sit</p></div><a href="#portfolio"><i class="fa fa-eye" aria-hidden="true"></i></a></figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section 3 : Formulaire de contact -->
+		<section id="contact">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20994.62494734638!2d2.3394847!3d48.8710212!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1559825290027!5m2!1sfr!2sfr" allowfullscreen></iframe>
+			<div class="formular">
+					<div class="form_text">
+						<h3 class="title_contact">Contact Info</h3>
+						<p><strong>WebAgency SAS</strong><br />
+						25 Rue d'Hauteville 75010 Paris<br />
+						<span class="dotted_line">Tél :</span> 01 02 03 04 05</p>
+					</div>
+					<form method="post">
+						<p>
+							<input type="text" name="name" id="name" placeholder="Name" />
+							<input type="text" name="email" id="email" placeholder="Email" />
+							<input type="text" name="subject" id="subject" placeholder="Subject" />
+							<textarea name="message" id="message" placeholder="Message"></textarea>
+						</p>
+					</form>
+					<a href="#" class="send_message">Send Message</a>
+				</div>
+		</section>
+	</body>
+</html>
