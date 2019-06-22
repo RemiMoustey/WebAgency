@@ -83,20 +83,17 @@ hr
 	z-index: 12;
 	background-color: white;
 	position: fixed;
-	left: 0;
-	right: 0;
 	top: 0;
 	padding-left: 150px;
 	padding-top: 10px;
 	font-family: 'robotoregular', Arial, serif;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
 }
 
 /* ------------------------ Menu de navigation ------------------------ */
-
-.top_page img
-{
-	margin-top: 8px;
-}
 
 nav
 {
@@ -401,7 +398,6 @@ header p
 
 .selection_images
 {
-	text-align: center;
 	display: flex;
 	flex-direction: column;
 }
@@ -522,28 +518,11 @@ label[for="tab_4"]
 }
 
 /* Légende des images */
-figure
-{
-	width: 360px;
-	height: 240px;
-	margin: 10px;
-}
-
-figcaption
-{
-	text-align: left;
-	position: relative;
-	bottom: 94px;
-	padding-left: 10px;
-	line-height: 2px;
-	padding-top: 10px;
-	background-color: rgba(0, 0, 0, 0.4);
-	height: 80px;
-}
 
 figcaption h3, figcaption p
 {
 	color: white;
+	margin-left: 10px;
 }
 
 figcaption h3
@@ -555,6 +534,38 @@ figcaption h3
 figcaption p
 {
 	margin-top: 5px;
+	white-space: nowrap;
+}
+
+figure 
+{
+  position: relative;
+}
+
+figure img 
+{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+figcaption 
+{
+  position: absolute; 
+  bottom: 0; 
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity: 0;
+  text-align: left;
+  height: 70px;
+  display: flex;
+	justify-content: space-between;
+}
+
+figure:hover figcaption {
+  opacity: 1;
 }
 
 figcaption i
@@ -564,27 +575,39 @@ figcaption i
 	background-color: #4692b1;
 	padding: 15px;
 	border-radius: 50px;
+}
+
+figcaption a
+{
 	position: relative;
-	bottom: 107px;
-	left: 286px;
+	top: -40%;
+	right: 5%;
 }
 
-figcaption
+@media all and (max-width: 1300px)
 {
-	display: none;
-}
+	figcaption 
+	{
+		height: 50px;
+	}
 
-figure:hover figcaption
-{
-	display: block;
+	figcaption p, figcaption h3
+	{
+		font-size: 12px;
+	}
+
+	figcaption i
+	{
+		padding: 10px;
+	}
 }
 
 .row_portfolio
 {
 	display: flex;
-	justify-content: center;
-	margin-left: 8%;
-	margin-right: 8%;
+	justify-content: space-around;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 .bottom_row
@@ -605,7 +628,7 @@ figure:hover figcaption
 
 .selection_images #tab_1[type=radio]:checked ~ .images_all_works,
 .selection_images #tab_2[type=radio]:checked ~ .images_creative,
-.selection_images #tab_3[type=radio]:checked ~.images_corporate,
+.selection_images #tab_3[type=radio]:checked ~ .images_corporate,
 .selection_images #tab_4[type=radio]:checked ~ .images_portfolio
 {
 	display: block;
@@ -650,7 +673,7 @@ textarea
 
 iframe
 {
-	width: 80%;
+	width: 100%;
 	height: 600px;
 	border: 0;
 }
@@ -658,7 +681,7 @@ iframe
 .formular
 {
 	position: relative;
-	left: 60%;
+	left: 70%;
 	bottom: 580px;
 	height: 545px;
 	display: flex;
