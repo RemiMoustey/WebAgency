@@ -705,10 +705,6 @@ strong
 
 @media all and (max-width: 1024px)
 {
-	body
-	{
-		margin: 0 auto;
-	}
 	.top_page
 	{
 		position: static;
