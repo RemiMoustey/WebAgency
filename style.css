@@ -864,6 +864,11 @@ strong
 		width: 100%;
 	}
 
+	.image_services
+	{
+		width: 270px;
+		height: auto;
+	}
 
 	.three_services
 	{
