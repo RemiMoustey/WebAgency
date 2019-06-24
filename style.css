@@ -357,7 +357,6 @@ header p
 
 .icon
 {
-	z-index: 1;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -867,6 +866,29 @@ strong
 		align-items: center;
 		margin-top: 300px;
 		width: 100%;
+	}
+
+	.service
+	{
+		display: block;
+	}
+
+	.icon
+	{
+		margin-right: 0;
+		float: left;
+	}
+
+	.text_services
+	{
+		width: 80%;
+		margin-left: 80px;
+		margin-bottom: 50px;
+	}
+
+	.icon + article h3
+	{
+		font-size: 1em;
 	}
 
 /*	.row_portfolio figure
