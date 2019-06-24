@@ -724,6 +724,9 @@ strong
 	nav
 	{
 		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
 		flex-direction: column;
 		top: 100px;
 		width: 100%;
