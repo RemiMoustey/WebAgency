@@ -863,7 +863,6 @@ strong
 	{
 		display: flex;
 		flex-direction: column;
-		align-items: center;
 		margin-top: 300px;
 		width: 100%;
 	}
@@ -871,6 +870,8 @@ strong
 	.service
 	{
 		display: block;
+		position: relative;
+		left: 0;
 	}
 
 	.icon
@@ -882,9 +883,9 @@ strong
 	.text_services
 	{
 		width: 80%;
-		margin-left: 80px;
 		margin-bottom: 50px;
-		align-self: flex-start;
+		position: relative;
+		left: 15px;
 	}
 
 	.icon + article h3
