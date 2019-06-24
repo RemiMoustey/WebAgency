@@ -859,11 +859,17 @@ strong
 
 @media all and (max-width: 768px)
 {
+	.head_sections p
+	{
+		width: 100%;
+	}
+
+
 	.three_services
 	{
 		display: flex;
 		flex-direction: column;
-		margin-top: 300px;
+		margin-top: 100px;
 		width: 100%;
 	}
 
@@ -893,11 +899,11 @@ strong
 		font-size: 1em;
 	}
 
-/*	.row_portfolio figure
+	.row_portfolio figure
 	{
-		width: 360px;
-		height: 240px;
+		width: 300px;
+		height: auto;
 		margin-bottom: 20px;
 	}
-*/
+
 }
