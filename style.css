@@ -1,6 +1,7 @@
 /* Définition des polices personnalisées */
 
-@font-face {
+@font-face 
+{
     font-family: 'robotoregular';
     src: url('files/fonts/Roboto-Regular-webfont.eot');
     src: url('files/fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
@@ -12,7 +13,8 @@
     font-style: normal;
 }
 
-@font-face {
+@font-face 
+{
     font-family: 'robotobold';
     src: url('files/fonts/Roboto-Bold-webfont.eot');
     src: url('files/fonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
@@ -24,7 +26,8 @@
     font-style: normal;
 }
 
-@font-face {
+@font-face 
+{
     font-family: 'robotolight';
     src: url('files/fonts/Roboto-Light-webfont.eot');
     src: url('files/fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
@@ -151,7 +154,7 @@ nav a:hover
 	color: #5CACD1;
 }
 
-@media all and (min-width: 1024px)
+@media all and (min-width: 992px)
 {
 	.white
 	{
@@ -195,7 +198,7 @@ header p
 	left: 0;
 	right: 0;
 	opacity: 0;
-	/*transition: all 0.5s ease-in-out;*/
+	transition: all 0.5s ease-in-out;
 }
 
 .item-1, .item-2
@@ -539,7 +542,7 @@ figcaption
   text-align: left;
   height: 70px;
   display: flex;
-	justify-content: space-between;
+  justify-content: space-between;
 }
 
 figure:hover figcaption {
@@ -703,7 +706,7 @@ strong
 
 /* Responsive */
 
-@media all and (max-width: 1024px)
+@media all and (max-width: 991px)
 {
 	.top_page
 	{
@@ -853,4 +856,23 @@ strong
 	{
 		height: 1100px;
 	}
+}
+
+@media all and (max-width: 768px)
+{
+	.three_services
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 100px;	
+	}
+
+/*	.row_portfolio figure
+	{
+		width: 360px;
+		height: 240px;
+		margin-bottom: 20px;
+	}
+*/
 }
