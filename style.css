@@ -871,8 +871,9 @@ strong
 
 	.image_services img
 	{
-		width: 270px;
+		width: 300px;
 		height: auto;
+		margin-top: 20px;
 	}
 
 	.three_services
