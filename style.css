@@ -804,6 +804,11 @@ strong
 		margin-bottom: 80px;
 	}
 
+	.image_services
+	{
+		text-align: center;
+	}
+
 	.three_services
 	{
 		display: flex;
