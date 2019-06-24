@@ -705,34 +705,37 @@ strong
 
 @media all and (max-width: 1024px)
 {
+	body
+	{
+		margin: 0 auto;
+	}
 	.top_page
 	{
-		display: flex;
+		position: static;
 		flex-direction: column;
-		height: 100px;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
+		padding: 0;
+		margin: 0;
 	}
 
 	.top_page img
 	{
-		width: 261px;
-		height: 57px;
+
 	}
 
 	nav
 	{
+		position: static;
 		display: flex;
-		justify-content: center;
 		align-items: center;
-		text-align: center;
 		flex-direction: column;
-		top: 100px;
-		width: 100%;
-		margin: 10px;
-		left: 0;
+		justify-content: center;
 		background-color: #ebebeb;
+		padding: 0;
+		margin: 0;
+		max-width: 100%;
 	}
 
 	nav a
