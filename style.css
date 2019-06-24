@@ -884,6 +884,7 @@ strong
 		width: 80%;
 		margin-left: 80px;
 		margin-bottom: 50px;
+		align-self: flex-start;
 	}
 
 	.icon + article h3
