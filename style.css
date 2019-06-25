@@ -154,7 +154,7 @@ nav a:hover
 	color: #5CACD1;
 }
 
-@media all and (min-width: 992px)
+@media all and (min-width: 1025px)
 {
 	.white
 	{
@@ -564,7 +564,7 @@ figcaption a
 	right: 5%;
 }
 
-@media all and (min-width: 991px) and (max-width: 1300px)
+@media all and (min-width: 1024px) and (max-width: 1300px)
 {
 	figcaption 
 	{
