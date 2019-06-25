@@ -923,10 +923,38 @@ strong
 		margin-bottom: 20px;
 	}
 
-	label
+	label[for="tab_1"]
 	{
-		width: 35px;
-		display: inline-block;
-		align-self: center;
+		position: relative;
+		right: 70px;
+	}
+
+	label[for="tab_2"]
+	{
+		position: relative;
+		right: 30px;
+		bottom: 38px;
+	}
+
+	label[for="tab_3"]
+	{
+		position: relative;
+		left: 25px;
+		bottom: 45px;
+	}
+
+	label[for="tab_4"]
+	{
+		position: relative;
+		left: 60px;
+		bottom: 83px;
+	}
+
+	.selection_images #tab_1[type=radio]:checked + label:after,
+	.selection_images #tab_2[type=radio]:checked + label:after,
+	.selection_images #tab_3[type=radio]:checked + label:after,
+	.selection_images #tab_4[type=radio]:checked + label:after
+	{	
+	  content: "";
 	}
 }
