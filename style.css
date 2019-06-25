@@ -926,27 +926,27 @@ strong
 	label[for="tab_1"]
 	{
 		position: relative;
-		right: 35px;
+		right: 25px;
 	}
 
 	label[for="tab_2"]
 	{
 		position: relative;
-		left: 15px;
+		left: 40px;
 		bottom: 38px;
 	}
 
 	label[for="tab_3"]
 	{
 		position: relative;
-		right: 10px;
+		right: 25px;
 		bottom: 20px;
 	}
 
 	label[for="tab_4"]
 	{
 		position: relative;
-		left: 30px;
+		left: 20px;
 		bottom: 58px;
 	}
 	.selection_images #tab_1[type=radio]:checked + label:after,
