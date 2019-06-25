@@ -922,32 +922,35 @@ strong
 		height: auto;
 		margin-bottom: 20px;
 	}
+}
 
+@media all and (max-width: 550px)
+{
 	label[for="tab_1"]
 	{
 		position: relative;
-		right: 70px;
+		right: 50px;
 	}
 
 	label[for="tab_2"]
 	{
 		position: relative;
-		right: 30px;
+		right: 10px;
 		bottom: 38px;
 	}
 
 	label[for="tab_3"]
 	{
 		position: relative;
-		left: 25px;
+		left: 10px;
 		bottom: 30px;
 	}
 
 	label[for="tab_4"]
 	{
 		position: relative;
-		left: 60px;
-		bottom: 83px;
+		left: 50px;
+		bottom: 68px;
 	}
 
 	.selection_images #tab_1[type=radio]:checked + label:after,
