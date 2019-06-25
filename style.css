@@ -922,6 +922,11 @@ strong
 		height: auto;
 		margin-bottom: 20px;
 	}
+
+	#send_message
+	{
+		margin-bottom: 10px;
+	}
 }
 
 @media all and (max-width: 560px)
