@@ -922,10 +922,7 @@ strong
 		height: auto;
 		margin-bottom: 20px;
 	}
-}
 
-@media all and (max-width: 550px)
-{
 	label[for="tab_1"]
 	{
 		position: relative;
@@ -952,7 +949,6 @@ strong
 		left: 30px;
 		bottom: 58px;
 	}
-
 	.selection_images #tab_1[type=radio]:checked + label:after,
 	.selection_images #tab_2[type=radio]:checked + label:after,
 	.selection_images #tab_3[type=radio]:checked + label:after,
