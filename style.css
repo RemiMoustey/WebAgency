@@ -83,7 +83,7 @@ hr
 .top_page
 {
 	height: 90px;
-	z-index: 12;
+	z-index: 5;
 	background-color: white;
 	position: fixed;
 	top: 0;
@@ -110,7 +110,6 @@ nav a:hover
 	border-top-color: #5CADD3;
 	color: #555;
 }
-
 
 /*------------------------ Slider ------------------------ */
 
@@ -165,13 +164,13 @@ header p
 {
 	background-color: #5CACD1;
 	color: #fff;
-	padding: 6px 13px 6px 13px;
+	padding: 6px 13px;
 	border-radius: 2px;
 	font-family: 'robotolight', Arial, serif;
 	font-size: 13px;
 	text-decoration: none;
 	font-weight: bold;
-	box-shadow: 0 2px 0px #4494bb;
+	box-shadow: 0 2px 0 #4494bb;
 }
 
 .carousel-wrapper 
@@ -261,8 +260,8 @@ header p
 
 .carousel-wrapper #target-item-1:target ~ .item-1 
 {
-  	z-index: 2;
-  	opacity: 1;
+	z-index: 2;
+	opacity: 1;
 }
 
 .carousel-wrapper #target-item-2:target ~ .item-2, .carousel-wrapper
@@ -282,6 +281,13 @@ header p
 	height: 250px;
 }
 
+.separation
+{
+	width: 150px;
+	height: 60px;
+}
+
+
 .head_sections p
 {
 	width: 50%;
@@ -292,8 +298,7 @@ header p
 	position: relative;
 	font-size: 20px;
 	z-index: 2;
-	left: 0;
-	top: 19px;
+	top: 20px;
 }
 
 /* ------------------------ Section 1 : Nos services ------------------------ */
@@ -317,12 +322,6 @@ header p
 .fa-line-chart, .fa-cubes, .fa-pie-chart, .fa-circle
 {
 	color: #5cadd3;
-}
-
-.separation
-{
-	width: 150px;
-	height: 60px;
 }
 
 #services
@@ -360,7 +359,7 @@ header p
 	height: 25px;
 }
 
-.chart
+.blue_icon
 {
 	width: 25px;
 }
@@ -402,7 +401,6 @@ input[type=radio]
 label
 {
 	width: 55px;
-	display: inline-block;
 	align-self: center;
 }
 
@@ -462,16 +460,11 @@ label[for="tab_4"]
 /* Affichage de l'onglet quand il est sélectionné */
 .selection_images input[type=radio]:checked + label
 {
-	font-family: 'robotolight', Arial, serif;
-	background-color: #5cadd3;
 	color: #fff;
-	border-bottom: 3px solid #468cad;
+	background-color: #5cadd3;
+	font-family: 'robotolight', Arial, serif;
 	padding: 10px 18px 7px 18px;
-}
-
-input
-{
-	position: relative;
+	border-bottom: 3px solid #468cad;
 }
 
 .selection_images #tab_1[type=radio]:checked + label:after,
@@ -535,7 +528,8 @@ figcaption
   justify-content: space-between;
 }
 
-figure:hover figcaption {
+figure:hover figcaption
+{
   opacity: 1;
 }
 
@@ -589,7 +583,7 @@ figcaption a
 
 .single_row
 {
-	padding-bottom: 80px;
+	padding-bottom: 50px;
 }
 
 .images_all_works, .images_creative, .images_corporate, .images_portfolio
@@ -686,7 +680,7 @@ strong
 	background-color: #5cadd3;
 	color: #fff;
 	border-color: #5cadd3;
-	border-bottom: 3px solid #468cad;
+	box-shadow: 0 3px 0 #468cad;
 	border-radius: 3px;
 	text-decoration: none;
 	font-family: 'robotoregular', Arial, serif;
@@ -709,9 +703,6 @@ strong
 	{
 		position: static;
 		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
 		padding: 0;
 		margin: 0;
 	}
@@ -726,9 +717,7 @@ strong
 	{
 		position: static;
 		display: flex;
-		align-items: center;
 		flex-direction: column;
-		justify-content: center;
 		background-color: #ebebeb;
 		padding: 0;
 		margin: 0;
@@ -741,8 +730,8 @@ strong
 		padding: 10px;
 		border: none;
 		text-align: center;
-		border-top: 3px solid #ebebebeb;
-		border-bottom: 3px solid #ebebebeb;
+		border-top: 3px solid #ebebeb;
+		border-bottom: 3px solid #ebebeb;
 	}
 
 	nav a:hover
@@ -792,11 +781,6 @@ strong
 		margin-top: 153px;
 	}
 
-	.arrow
-	{
-		align-self: center;
-	}
-
 	.head_sections
 	{
 		margin-bottom: 80px;
@@ -838,7 +822,7 @@ strong
 		display: flex;
 		flex-direction: column-reverse;
 		justify-content: space-between;
-		height: 680px;
+		height: 1100px;
 	}
 
 	iframe
@@ -852,11 +836,6 @@ strong
 		left: 0;
 		align-self: center;
 		margin-bottom: 30px;
-	}
-
-	#contact
-	{
-		height: 1100px;
 	}
 }
 
