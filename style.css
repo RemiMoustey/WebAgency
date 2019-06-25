@@ -926,7 +926,7 @@ strong
 	label[for="tab_1"]
 	{
 		position: relative;
-		right: 33px;
+		right: 36px;
 	}
 
 	label[for="tab_2"]
@@ -939,14 +939,14 @@ strong
 	label[for="tab_3"]
 	{
 		position: relative;
-		right: 25px;
+		right: 75px;
 		bottom: 35px;
 	}
 
 	label[for="tab_4"]
 	{
 		position: relative;
-		left: 30px;
+		left: 45px;
 		bottom: 73px;
 	}
 	.selection_images #tab_1[type=radio]:checked + label:after,
@@ -955,5 +955,15 @@ strong
 	.selection_images #tab_4[type=radio]:checked + label:after
 	{	
 	  content: "";
+	}
+
+	.left_tab_radius
+	{
+		border: none;
+	}
+
+	.right_tab_radius
+	{
+		border: none;
 	}
 }
