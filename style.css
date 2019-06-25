@@ -564,7 +564,7 @@ figcaption a
 	right: 5%;
 }
 
-@media all and (min-width: 1024px) and (max-width: 1300px)
+@media all and (min-width: 991px) and (max-width: 1300px)
 {
 	figcaption 
 	{
@@ -697,6 +697,7 @@ strong
 	border-radius: 5px;
 	text-decoration: none;
 	font-family: 'robotobold', Arial, serif;
+	font-weight: bold;
 	text-align: left;
 	width: 120px;
 	padding-top: 10px;
@@ -710,7 +711,7 @@ strong
 
 /* Responsive */
 
-@media all and (max-width: 991px)
+@media all and (max-width: 1024px)
 {
 	.top_page
 	{
@@ -922,4 +923,10 @@ strong
 		margin-bottom: 20px;
 	}
 
+	label
+	{
+		width: 35px;
+		display: inline-block;
+		align-self: center;
+	}
 }
