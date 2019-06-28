@@ -847,7 +847,6 @@ strong
 	.head_sections p
 	{
 		width: 90%;
-		margin-bottom: 10px;
 	}
 
 	.image_services img
@@ -884,6 +883,11 @@ strong
 
 @media all and (max-width: 560px)
 {
+	#services .head_section
+	{
+		margin-bottom: 10px;
+	}
+
 	label[for="tab_1"]
 	{
 		position: relative;
