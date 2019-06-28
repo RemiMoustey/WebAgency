@@ -414,21 +414,21 @@ label[for="tab_2"]
 {
 	position: relative;
 	right: 43px;
-	bottom: 37.5px;
+	bottom: 38px;
 }
 
 label[for="tab_3"]
 {
 	position: relative;
 	left: 51px;
-	bottom: 75px;
+	bottom: 76px;
 }
 
 label[for="tab_4"]
 {
 	position: relative;
 	left: 144px;
-	bottom: 112.5px;
+	bottom: 114px;
 }
 
 .left_tab_radius
@@ -721,7 +721,7 @@ strong
 		flex-direction: column;
 		background-color: #ebebeb;
 		width: 100%;
-		margin-top: 274px;
+		margin-top: 273px;
 		margin-right: 17px;
 	}
 
