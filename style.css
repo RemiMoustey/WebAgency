@@ -727,7 +727,7 @@ strong
 
 	nav a
 	{
-		padding: 11.5px;
+		padding: 12px;
 		border: none;
 		text-align: center;
 		margin-left: 17px;
@@ -737,6 +737,7 @@ strong
 	{
 		border-top: none;
 		border-bottom: none;
+		padding: 12px;
 	}
 
 	.carousel-wrapper .carousel-item 
