@@ -735,6 +735,11 @@ strong
 		margin-left: 17px;
 	}
 
+	nav a:hover
+	{
+		border: none;
+	}
+
 	.carousel-wrapper .carousel-item 
 	{
 		top: 50px;
