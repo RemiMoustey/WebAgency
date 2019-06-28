@@ -735,11 +735,6 @@ strong
 		margin-left: 17px;
 	}
 
-	nav a:hover
-	{
-		border-bottom-color: #5CADD3
-	}
-
 	.carousel-wrapper .carousel-item 
 	{
 		top: 50px;
