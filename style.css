@@ -705,6 +705,7 @@ strong
 		flex-direction: column;
 		padding: 0;
 		margin: 0;
+		width: 100%
 	}
 
 	.top_page img
@@ -718,10 +719,9 @@ strong
 		display: flex;
 		flex-direction: column;
 		background-color: #ebebeb;
-		padding: 0;
-		margin: 0;
 		width: 100%;
 		margin-top: 282px;
+		margin-right: 17px;
 	}
 
 	nav a
