@@ -402,7 +402,6 @@ label
 {
 	width: 58px;
 	align-self: center;
-	
 }
 
 label[for="tab_1"]
@@ -703,7 +702,6 @@ strong
 {
 	.top_page
 	{
-		position: static;
 		flex-direction: column;
 		padding: 0;
 		margin: 0;
@@ -712,19 +710,18 @@ strong
 	.top_page img
 	{
 		position: absolute;
-		top: 25px;
+		top: 15px;
 	}
 
 	nav
 	{
-		position: static;
 		display: flex;
 		flex-direction: column;
 		background-color: #ebebeb;
 		padding: 0;
 		margin: 0;
 		width: 100%;
-		margin-top: 300px;
+		margin-top: 282px;
 	}
 
 	nav a
@@ -760,6 +757,7 @@ strong
 	{
 		display: flex;
 		flex-direction: column-reverse;
+		margin-top: 80px;
 	}
 
 	.carousel-wrapper 
