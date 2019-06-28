@@ -702,17 +702,17 @@ strong
 {
 	.top_page
 	{
+		position: static;
 		flex-direction: column;
 		padding: 0;
 		margin: 0;
-		width: 100%
+		width: 100%;
 	}
 
 	.top_page img
 	{
 		position: absolute;
 		top: 15px;
-		padding-right: 17px;
 	}
 
 	nav
@@ -722,7 +722,6 @@ strong
 		background-color: #ebebeb;
 		width: 100%;
 		margin-top: 273px;
-		margin-right: 17px;
 	}
 
 	nav a
@@ -730,7 +729,6 @@ strong
 		padding: 12px;
 		border: none;
 		text-align: center;
-		margin-left: 17px;
 	}
 
 	nav a:hover
@@ -776,6 +774,24 @@ strong
 	.image_services
 	{
 		text-align: center;
+	}
+
+	.service
+	{
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		margin-top: 40px;
+	}
+
+	.text_services
+	{
+		width: 70%;
+	}
+
+	.icon
+	{
+		margin-right: 0;
 	}
 
 	.three_services
@@ -830,7 +846,7 @@ strong
 {
 	.head_sections p
 	{
-		width: 100%;
+		width: 90%;
 	}
 
 	.image_services img
@@ -845,28 +861,6 @@ strong
 		display: flex;
 		flex-direction: column;
 		margin-top: 100px;
-		width: 100%;
-	}
-
-	.service
-	{
-		display: block;
-		position: relative;
-		left: 0;
-	}
-
-	.icon
-	{
-		margin-right: 0;
-		float: left;
-	}
-
-	.text_services
-	{
-		width: 80%;
-		margin-bottom: 50px;
-		position: relative;
-		left: 15px;
 	}
 
 	.icon + article h3
