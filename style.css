@@ -400,8 +400,9 @@ input[type=radio]
 
 label
 {
-	width: 55px;
+	width: 58px;
 	align-self: center;
+	word-wrap: nowrap;
 }
 
 label[for="tab_1"]
@@ -413,22 +414,22 @@ label[for="tab_1"]
 label[for="tab_2"]
 {
 	position: relative;
-	right: 46px;
-	bottom: 38px;
+	right: 43px;
+	bottom: 37.5px;
 }
 
 label[for="tab_3"]
 {
 	position: relative;
-	left: 45px;
-	bottom: 76px;
+	left: 51px;
+	bottom: 75px;
 }
 
 label[for="tab_4"]
 {
 	position: relative;
-	left: 136px;
-	bottom: 114px;
+	left: 144px;
+	bottom: 112.5px;
 }
 
 .left_tab_radius
@@ -477,7 +478,7 @@ label[for="tab_4"]
   position: absolute;
   color: #468cad;
   font-size: 20px;
-  top: 30px;
+  top: 29px;
   left: 40px;
 }
 
@@ -516,7 +517,7 @@ figure img
 figcaption 
 {
   position: absolute; 
-  bottom: 0; 
+  bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
   color: #f1f1f1; 
   width: 100%;
@@ -656,6 +657,7 @@ iframe
 	font-size: 14px;
 	background-color: rgba(255, 255, 255, 0.8);
 	width: 290px;
+	margin-bottom: -580px;
 }
 
 .dotted_line
@@ -739,25 +741,10 @@ strong
 		border-bottom-color: #5CADD3
 	}
 
-	.banner
-	{
-		margin-top: 305px;
-	}
-
-	.carousel-wrapper 
-	{
-		top: 50px;
-	}
-
 	.carousel-wrapper .carousel-item 
 	{
 		top: 50px;
 		height: 50px;
-	}
-
-	.arrow
-	{
-		margin-top: 154px;
 	}
 
 	.text_image
@@ -766,7 +753,7 @@ strong
 		align-self: center;
 		color: black;
 		max-width: 100%;
-		margin-top: 170px;
+		margin-top: -70px;
 	}
 
 	.all_slider
@@ -778,7 +765,7 @@ strong
 	.carousel-wrapper 
 	{
 		height: 300px;
-		margin-top: 153px;
+		margin-top: 300px;
 	}
 
 	.head_sections
