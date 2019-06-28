@@ -737,7 +737,8 @@ strong
 
 	nav a:hover
 	{
-		border: none;
+		border-top: none;
+		border-bottom: none;
 	}
 
 	.carousel-wrapper .carousel-item 
