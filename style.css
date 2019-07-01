@@ -750,7 +750,7 @@ strong
 		align-self: center;
 		color: black;
 		max-width: 95%;
-		margin-top: -70px;
+		margin: -70px 5px 5px 5px;
 	}
 
 	.all_slider
