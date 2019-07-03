@@ -503,34 +503,34 @@ figcaption p
 
 figure 
 {
-  position: relative;
+	position: relative;
 }
 
 figure img 
 {
-  display: block;
-  width: 100%;
-  height: auto;
+	display: block;
+	width: 100%;
+	height: auto;
 }
 
 figcaption 
 {
-  position: absolute; 
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1; 
-  width: 100%;
-  transition: 0.5s ease;
-  opacity: 0;
-  text-align: left;
-  height: 70px;
-  display: flex;
-  justify-content: space-between;
+	position: absolute; 
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #f1f1f1; 
+	width: 100%;
+	transition: 0.5s ease;
+	opacity: 0;
+	text-align: left;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
 }
 
 figure:hover figcaption
 {
-  opacity: 1;
+	opacity: 1;
 }
 
 figcaption i
@@ -920,7 +920,7 @@ strong
 	.selection_images #tab_3[type=radio]:checked + label:after,
 	.selection_images #tab_4[type=radio]:checked + label:after
 	{	
-	  content: "";
+		content: "";
 	}
 
 	.left_tab_radius
