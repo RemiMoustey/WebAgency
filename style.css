@@ -404,27 +404,27 @@ label
 	align-self: center;
 }
 
-label[for="tab_1"]
+label[for="all_works"]
 {
 	position: relative;
 	right: 137px;
 }
 
-label[for="tab_2"]
+label[for="creative"]
 {
 	position: relative;
 	right: 43px;
 	bottom: 38px;
 }
 
-label[for="tab_3"]
+label[for="corporate"]
 {
 	position: relative;
 	left: 51px;
 	bottom: 76px;
 }
 
-label[for="tab_4"]
+label[for="tab_portfolio"]
 {
 	position: relative;
 	left: 144px;
@@ -467,10 +467,10 @@ label[for="tab_4"]
 	border-bottom: 3px solid #468cad;
 }
 
-.selection_images #tab_1[type=radio]:checked + label:after,
-.selection_images #tab_2[type=radio]:checked + label:after,
-.selection_images #tab_3[type=radio]:checked + label:after,
-.selection_images #tab_4[type=radio]:checked + label:after
+.selection_images #all_works[type=radio]:checked + label:after,
+.selection_images #creative[type=radio]:checked + label:after,
+.selection_images #corporate[type=radio]:checked + label:after,
+.selection_images #tab_portfolio[type=radio]:checked + label:after
 {	
   font-family: 'FontAwesome';
   content: "\f0d7";
@@ -591,10 +591,10 @@ figcaption a
 	display: none;
 }
 
-.selection_images #tab_1[type=radio]:checked ~ .images_all_works,
-.selection_images #tab_2[type=radio]:checked ~ .images_creative,
-.selection_images #tab_3[type=radio]:checked ~ .images_corporate,
-.selection_images #tab_4[type=radio]:checked ~ .images_portfolio
+.selection_images #all_works[type=radio]:checked ~ .images_all_works,
+.selection_images #creative[type=radio]:checked ~ .images_creative,
+.selection_images #corporate[type=radio]:checked ~ .images_corporate,
+.selection_images #tab_portfolio[type=radio]:checked ~ .images_portfolio
 {
 	display: block;
 }
@@ -888,37 +888,37 @@ strong
 		margin-bottom: 70px;
 	}
 
-	label[for="tab_1"]
+	label[for="all_works"]
 	{
 		position: relative;
 		right: 44px;
 	}
 
-	label[for="tab_2"]
+	label[for="creative"]
 	{
 		position: relative;
 		left: 47px;
 		bottom: 38px;
 	}
 
-	label[for="tab_3"]
+	label[for="corporate"]
 	{
 		position: relative;
 		left: -44px;
 		bottom: 38px;
 	}
 
-	label[for="tab_4"]
+	label[for="tab_portfolio"]
 	{
 		position: relative;
 		left: 47px;
 		bottom: 76px;
 	}
 
-	.selection_images #tab_1[type=radio]:checked + label:after,
-	.selection_images #tab_2[type=radio]:checked + label:after,
-	.selection_images #tab_3[type=radio]:checked + label:after,
-	.selection_images #tab_4[type=radio]:checked + label:after
+	.selection_images #all_works[type=radio]:checked + label:after,
+	.selection_images #creative[type=radio]:checked + label:after,
+	.selection_images #corporate[type=radio]:checked + label:after,
+	.selection_images #tab_portfolio[type=radio]:checked + label:after
 	{	
 		content: "";
 	}
