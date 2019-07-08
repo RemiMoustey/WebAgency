@@ -5,7 +5,6 @@
     font-family: 'robotoregular';
     src: url('files/fonts/Roboto-Regular-webfont.eot');
     src: url('files/fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('files/fonts/Roboto-Regular-webfont.woff2') format('woff2'),
          url('files/fonts/Roboto-Regular-webfont.woff') format('woff'),
          url('files/fonts/Roboto-Regular-webfont.ttf') format('truetype'),
          url('files/fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
@@ -18,7 +17,6 @@
     font-family: 'robotobold';
     src: url('files/fonts/Roboto-Bold-webfont.eot');
     src: url('files/fonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('files/fonts/Roboto-Bold-webfont.woff2') format('woff2'),
          url('files/fonts/Roboto-Bold-webfont.woff') format('woff'),
          url('files/fonts/Roboto-Bold-webfont.ttf') format('truetype'),
          url('files/fonts/Roboto-Bold-webfont.svg#robotobold') format('svg');
@@ -31,7 +29,6 @@
     font-family: 'robotolight';
     src: url('files/fonts/Roboto-Light-webfont.eot');
     src: url('files/fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('files/fonts/Roboto-Light-webfont.woff2') format('woff2'),
          url('files/fonts/Roboto-Light-webfont.woff') format('woff'),
          url('files/fonts/Roboto-Light-webfont.ttf') format('truetype'),
          url('files/fonts/Roboto-Light-webfont.svg#robotolight') format('svg');
